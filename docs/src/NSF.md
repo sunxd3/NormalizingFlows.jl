@@ -1,6 +1,6 @@
 # Demo of NSF on 2D Banana Distribution
 
-`Banana` is defined in the [`example`](https://github.com/TuringLang/NormalizingFlows.jl/tree/main/example) directory; run this from there so the `include` resolves.
+`Banana` is defined in the [`example`](https://github.com/sunxd3/NormalizingFlows.jl/tree/main/example) directory; run this from there so the `include` resolves.
 
 ```julia
 using Random, Distributions, LinearAlgebra

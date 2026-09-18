@@ -4,7 +4,7 @@ CurrentModule = NormalizingFlows
 
 # NormalizingFlows.jl
 
-Documentation for [NormalizingFlows.jl](https://github.com/TuringLang/NormalizingFlows.jl).
+Documentation for [NormalizingFlows.jl](https://github.com/sunxd3/NormalizingFlows.jl).
 
 
 The purpose of this package is to provide a simple and flexible interface for 

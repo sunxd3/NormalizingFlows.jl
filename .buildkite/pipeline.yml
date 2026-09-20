@@ -21,15 +21,15 @@ steps:
     matrix:
       setup:
         version:
-          - "1"
+          - "1.12"
           - "1.10"
         label:
           - "cuda"
 
-  - label: "GPU demo, Julia v1"
+  - label: "GPU demo, Julia v1.12"
     plugins:
       - JuliaCI/julia#v1:
-          version: "1"
+          version: "1.12"
     command: julia --project=example/gpu --eval='using Pkg; Pkg.develop(; path=pwd()); Pkg.instantiate(); include("example/gpu/demo_gpu.jl")'
     agents:
       queue: "cuda"

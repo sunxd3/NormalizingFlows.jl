@@ -1,7 +1,7 @@
 # NormalizingFlows.jl
 
-[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://turinglang.github.io/NormalizingFlows.jl/dev/)
-[![Build Status](https://github.com/TuringLang/NormalizingFlows.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/TuringLang/NormalizingFlows.jl/actions/workflows/CI.yml?query=branch%3Amain)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://sunxd3.github.io/NormalizingFlows.jl/dev/)
+[![Build Status](https://github.com/sunxd3/NormalizingFlows.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/sunxd3/NormalizingFlows.jl/actions/workflows/CI.yml?query=branch%3Amain)
 
 
 **Last updated: 2025-Aug-08**
@@ -15,9 +15,9 @@ construct (e.g., define customized flow layers) and combine various components
 for variational approximation of general target distributions, 
 without being tied to specific probabilistic programming frameworks or applications. 
 
-See the [documentation](https://turinglang.org/NormalizingFlows.jl/dev/) for more.  
+See the [documentation](https://sunxd3.github.io/NormalizingFlows.jl/dev/) for more.
 
-We also provide several demos and examples in [example](https://github.com/TuringLang/NormalizingFlows.jl/tree/main/example).
+We also provide several demos and examples in [example](https://github.com/sunxd3/NormalizingFlows.jl/tree/main/example).
 
 ## Installation
 To install the package, run the following command in the Julia REPL:
@@ -82,8 +82,8 @@ where one wants to learn the underlying distribution of some data.
 
 - [x] general interface development
 - [x] documentation
-- [x] including more NF examples/Tutorials [PR#11](https://github.com/TuringLang/NormalizingFlows.jl/pull/11) 
-- [x] GPU compatibility [PR#25](https://github.com/TuringLang/NormalizingFlows.jl/pull/25) 
+- [x] including more NF examples/Tutorials [PR#11](https://github.com/sunxd3/NormalizingFlows.jl/pull/11)
+- [x] GPU compatibility [PR#25](https://github.com/sunxd3/NormalizingFlows.jl/pull/25)
 - [ ] integrating [Lux.jl](https://lux.csail.mit.edu/stable/tutorials/intermediate/7_RealNVP) and [Reactant.jl](https://github.com/EnzymeAD/Reactant.jl). This could potentially solve the GPU compatibility issue as well.
 - [ ] benchmarking
 

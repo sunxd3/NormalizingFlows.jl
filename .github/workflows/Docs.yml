@@ -24,6 +24,9 @@ jobs:
     steps:
       - name: Build and deploy Documenter.jl docs
         uses: TuringLang/actions/DocsDocumenter@main
+        with:
+          julia-version: '1.12'
+          add-navbar: 'false'
         
       - name: Run doctests
         shell: julia --project=docs --color=yes {0}

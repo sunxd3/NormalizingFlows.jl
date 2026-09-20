@@ -57,7 +57,7 @@ If you build *many* layers (e.g. > ~30) you may reduce compilation time by using
 # using FunctionChains
 # ts = fchain([PlanarLayer(d) for _ in 1:n_layers])
 ```
-See [this comment](https://github.com/TuringLang/NormalizingFlows.jl/blob/8f4371d48228adf368d851e221af076ff929f1cf/src/NormalizingFlows.jl#L52)
+See [this comment](https://github.com/sunxd3/NormalizingFlows.jl/blob/8f4371d48228adf368d851e221af076ff929f1cf/src/NormalizingFlows.jl#L52)
 for how the compilation time might be a concern.
 
 ## Training the Flow
